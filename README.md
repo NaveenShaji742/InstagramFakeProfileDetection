@@ -33,7 +33,7 @@ With the rise of social media platforms, fake profiles have become a significant
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/instagramfakeprofiledetection.git
+   git clone https://github.com/NaveenShaji742/instagramfakeprofiledetection.git
    ```
 2. Install the necessary dependencies:
    ```bash
@@ -85,6 +85,3 @@ Contributions are welcome! Feel free to submit a pull request or open an issue f
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Let me know if you need further adjustments!
