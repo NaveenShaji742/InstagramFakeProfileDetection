@@ -33,13 +33,12 @@ With the rise of social media platforms, fake profiles have become a significant
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/NaveenShaji742/instagramfakeprofiledetection.git
+   git clone https://github.com/NaveenShaji742/InstagramFakeProfileDetection.git
    ```
 2. Install the necessary dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-
 3. Start the Flask application:
    ```bash
    python app.py
@@ -69,17 +68,8 @@ This project uses a heuristic scoring model based on profile characteristics rat
 
 The project assigns a fraud score to each profile. A higher fraud score indicates a higher likelihood of the profile being fake. Profiles are categorized based on their score:
 - 80 or higher: Likely Fake
-- Below 80: Likely Genuine
-
-## Future Enhancements
-
-- **Real-time Detection**: Introduce real-time monitoring for fake profiles.
-- **Machine Learning**: Implement machine learning algorithms to improve fraud score accuracy.
-- **Additional Features**: Add NLP for analyzing profile bio descriptions and image analysis for more accurate detection.
-
-## Contributing
-
-Contributions are welcome! Feel free to submit a pull request or open an issue for suggestions or bug reports.
+- 50 to 80: Likely Giving Warning 
+- Below 50: Likely Genuine
 
 ## License
 
