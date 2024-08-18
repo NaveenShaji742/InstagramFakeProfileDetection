@@ -1,6 +1,7 @@
 
 
-Instagram Fake Profile Detection
+# Instagram Fake Profile Detection
+
 
 This project is designed to detect fake profiles on Instagram by analyzing various profile attributes. It uses the `instaloader` library to scrape profile data and assigns a fraud score based on predefined criteria. The results are stored in an SQLite database for further analysis.
 
